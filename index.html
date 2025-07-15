@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>YTMaster</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">YTMaster</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                    aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">О курсе</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Преимущества</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Отзывы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#signup">Регистрация</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <div class="container">
+        <h1>Изучи ютуб с нуля</h1>
+        <p>Онлайн-курс для начинающих. Практика, проекты и поддержка наставника.</p>
+        <a href="#signup" class="btn btn-primary btn-lg">Записаться сейчас</a>
+    </div>
+</section>
+
+<section id="about" class="about container py-5">
+    <h2 class="mb-4 text-center">Почему стоит учиться у нас?</h2>
+    <p class="lead text-center mb-5">
+        <b>
+        Мы предлагаем понятные уроки, реальную практику и помощь опытных наставников. Все материалы доступны навсегда.
+        </b>
+    </p>
+</section>
+
+
+<hr>
+
+
+<section id="features" class="features container py-5">
+    <h2 class="mb-4 text-center">Преимущества курса</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="icon mb-3">💻</div>
+            <h5>Практические проекты</h5>
+            <p>Работай над реальными задачами и пополняй портфолио.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="icon mb-3">🧑‍🏫</div>
+            <h5>Поддержка наставника</h5>
+            <p>Задавай вопросы и получай помощь в любое время.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="icon mb-3">⏰</div>
+            <h5>Гибкий график</h5>
+            <p>Учись в удобное время, без привязки к расписанию.</p>
+        </div>
+    </div>
+</section>
+
+
+<hr>
+
+
+<section id="testimonials" class="testimonials container py-5">
+    <h2 class="mb-4 text-center">Отзывы студентов</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-3">
+                <p>"Курс помог мне влиться в ютуб. Рекомендую всем!"</p>
+                <div class="fw-bold">Анна К.</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3">
+                <p>"Очень понравился формат занятий и поддержка наставника. Материал подается понятно."</p>
+                <div class="fw-bold">Иван П.</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3">
+                <p>"Отличный курс для новичков. Приятный дизайн сайта и удобный интерфейс."</p>
+                <div class="fw-bold">Мария С.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="signup" class="container py-5">
+    <h2 class="mb-4 text-center">Запишись на курс</h2>
+    <form class="mx-auto" style="max-width: 480px;" novalidate>
+        <div class="mb-3">
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="name" placeholder="Введите имя" required />
+            <div class="invalid-feedback">Пожалуйста, введите имя.</div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+            <div class="invalid-feedback">Пожалуйста, введите корректный email.</div>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Отправить</button>
+    </form>
+</section>
+
+
+<footer>
+    <div>© 2025 YTMaster</div>
+    <div>
+        <a href="#">Facebook</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">X</a>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿body {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background: #343a40;
+}
+header .navbar-brand, header .nav-link {
+    color: #fff;
+}
+header .nav-link:hover {
+    color: #ffc107;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+}
+
+.hero {
+    background: linear-gradient(135deg, #6f42c1, #d63384);
+    color: #fff;
+    padding: 250px 0 80px;
+    text-align: center;
+}
+.about {
+    padding: 120px 0 80px;
+}
+.hero h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+.btn-primary {
+    background-color: #d63384;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #a32f6a;
+}
+.features .icon {
+    font-size: 3rem;
+    color: #d63384;
+    margin-bottom: 1rem;
+}
+.testimonials .card {
+    border: none;
+    box-shadow: 0 4px 8px rgb(214 51 132 / 0.15);
+    margin-bottom: 2rem;
+}
+footer {
+    background: #212529;
+    color: #adb5bd;
+    padding: 2rem 0;
+    text-align: center;
+}
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+footer a:hover {
+    text-decoration: underline;
+}
